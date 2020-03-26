@@ -138,4 +138,19 @@
       </plugin>
     </plugins>
   </build>
+
+  <distributionManagement>
+    <repository>
+      <id>alfresco-training</id>
+      <name>Alfresco Training Releases</name>
+      <url>https://artifacts.alfresco.com/nexus/content/repositories/training-release</url>
+    </repository>
+    <snapshotRepository>
+      <id>alfresco-training-snapshots</id>
+      <name>Alfresco Training Snapshots</name>
+      <url>https://artifacts.alfresco.com/nexus/content/repositories/training-snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
+
 </project>
+	
